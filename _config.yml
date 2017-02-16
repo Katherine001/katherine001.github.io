@@ -102,11 +102,11 @@ friends: [
       href: "http://xk.nnutc.edu.cn/"
     },
     {
-      title: "南京邮电大学NOJ"，
+      title: "南京邮电大学NOJ",
       href: "http://acm.njupt.edu.cn/acmhome/welcome.do?method=index"
     },
     {
       title: "北京大学POJ",
-      href： “http://poj.org/”
+      href: “http://poj.org/”
     }
 ]
