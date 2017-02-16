@@ -44,7 +44,7 @@ tags:
 
 下面是几个教程，感兴趣的可以了解一下  
 1.[jekyll+github搭建个人博客](https://bigballon.github.io/posts/jekyll-github.html)  
-2.[jekyll中文详细教程](http://jekyllcn.com/) 
+2.[jekyll中文详细教程](http://jekyllcn.com/)   
 3.[MareDown中文教程](http://www.appinn.com/markdown/index.html#misc)
 
 —Alisa 写于  江苏苏州  
