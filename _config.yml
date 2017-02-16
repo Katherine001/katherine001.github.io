@@ -1,8 +1,8 @@
 # Site settings
 title: Alisa’s Blog
-SEOTitle: Alisa的博客 ||南京师范大学泰州学院信息工程学院
+SEOTitle: Alisa的博客 ||nnutc信息工程学院
 header-img: img/home2.jpg
-email: 1124976925@qq.,com
+email: 1124976925@qq.com
 description: ""
 keyword: ""
 url: "https://huangxuan.me"              # your host, for absolute URL
@@ -17,7 +17,6 @@ zhihu_username:Katherine
 github_username:katherine001 
 #twitter_username:  
 facebook_username: 
-
 # linkedin_username: 
 
 
@@ -71,7 +70,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "勤奋，是程序员的基本素养，<br>而智慧，可以为其增添光彩"
+sidebar-about-description: "The best preparation for tomorrow is doing your best today."
 sidebar-avatar: /img/ljn.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -93,21 +92,5 @@ friends: [
     {
         title: "sctpan's blog",
         href: "http://sctpan.top/"
-    },
-    {
-       title: "南京师范大学泰州学院",
-       href: "http://www.nnutc.edu.cn/"
-    },
-    {
-      title: "南师泰院信息工程学院",
-      href: "http://xk.nnutc.edu.cn/"
-    },
-    {
-      title: "南京邮电大学NOJ",
-      href: "http://acm.njupt.edu.cn/acmhome/welcome.do?method=index"
-    },
-    {
-      title: "北京大学POJ",
-      href: “http://poj.org/”
     }
 ]
