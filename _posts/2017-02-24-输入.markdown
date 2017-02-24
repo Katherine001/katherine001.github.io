@@ -84,7 +84,7 @@ int main()
   while(cin>>m)
   {
     if(m > mx)
-    mx = m
+    mx = m;
   }
   printf("%d",mx);
   return 0;
