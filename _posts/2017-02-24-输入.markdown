@@ -86,7 +86,7 @@ int main()
     if(m > mx)
     mx = m;
   }
-  printf("%d",mx);
+  cout<<mx;
   return 0;
 }
 ```
