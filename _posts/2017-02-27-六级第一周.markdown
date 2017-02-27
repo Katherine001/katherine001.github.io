@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "英语六级备考刷分复习计划--第一周"
-subtitle:   " \"\""
+subtitle:   " \"Rome wasn't built in a day!\""
 date:       2017-02-27 12:00:00
 author:     "Alisa"
 header-img: "img/post-bg-201703.jpg"
