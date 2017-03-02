@@ -36,9 +36,8 @@ tags:
 
 —Alisa 写于  江苏泰州  
 2017.02.27
-<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="2017/02/27" data-title="英语六级备考刷分复习计划--第一周" data-url="http://www.katherineljn.top/2017/02/27/%E5%85%AD%E7%BA%A7%E7%AC%AC%E4%B8%80%E5%91%A8/"></div>
-<!-- 多说评论框 end -->
+
+
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"alisa"};
