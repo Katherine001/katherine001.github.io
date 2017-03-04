@@ -87,8 +87,8 @@ service-worker: true
 
 
 
-# Friends
-friends: [
+# 友情链接
+友情链接 : [
     {
         title: "sctpan的博客",
         href: "http://sctpan.top/"
