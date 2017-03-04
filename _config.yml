@@ -90,23 +90,35 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "sctpan's blog",
+        title: "sctpan的博客",
         href: "http://sctpan.top/"
     },
     {
-      title: "南京师范大学泰州学院信息工程学院",
+      title: "NNUTC院信息工程学院",
       href: "http://xk.nnutc.edu.cn/"
     },
     {
-      title: "蓝桥杯官网",
+      title: "蓝桥杯",
       href: "http://dasai.lanqiao.cn/"
     },
     {
-      title: "南京邮电大学NOJ",
+      title: "南邮NOJ",
       href: "http://acm.njupt.edu.cn/acmhome/welcome.do?method=index"
     },
     {
-      title: "北京大学POJ",
+      title: "北大POJ",
       href: "http://poj.org/"
+    },
+    {
+      title: "浙大ZOJ",
+      href: "http://acm.zju.edu.cn/onlinejudge/"
+    },
+    {
+      title: "中国大学MOOC",
+      href: "http://www.icourse163.org/"
+    },
+    {
+      title: "学堂在线MOOC",
+      href: "http://www.xuetangx.com/"
     }
 ]
