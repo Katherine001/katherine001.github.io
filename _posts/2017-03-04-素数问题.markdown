@@ -55,7 +55,7 @@ int main()
   {
     //每次判断i是否是素数
     int k;
-    for( k = 3; k < 1; k += 2 )
+    for( k = 3; k < i; k += 2 )
     {
       if( i % k == 0 )  break;
       if( k * k > i )  break;
