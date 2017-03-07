@@ -100,7 +100,21 @@ int main()
 本算法也体现了一个思想，就是我们在内存够用的时候，也可以通过内存换时间，加快算法的计算速度。  
 
 —Alisa 写于  江苏泰州  
-2017.03.04
+2017.03.04  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 
 

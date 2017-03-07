@@ -47,7 +47,24 @@ tags:
 3.[MareDown中文教程](http://www.appinn.com/markdown/index.html#misc)
 
 —Alisa 写于  江苏苏州  
-2017.02.16
+2017.02.16  
+
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
 
 

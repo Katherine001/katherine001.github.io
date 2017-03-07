@@ -12,7 +12,7 @@ layout: default
         position: relative;
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
-
+    
     {% if page.header-mask %}
     header.intro-header .header-mask{
         width: 100%;
@@ -51,17 +51,17 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-
+    
     <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
-				{{ content }}
-
+    
+    			{{ content }}
+    
                 <hr style="visibility: hidden;">
-
+    
                 {% if site.duoshuo_share && site.duoshuo_username %}
                 <!-- 多说 Share start -->
                 <div class="ds-share"
@@ -121,7 +121,7 @@ layout: default
                 </div>
                 <!-- 多说评论框 end -->
                 {% endif %}
-
+    
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
@@ -129,9 +129,9 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-
+    
             </div>  
-
+    
     <!-- Side Catalog Container -->
         {% if page.catalog %}
             <div class="
@@ -148,13 +148,13 @@ layout: default
                 </div>
             </div>
         {% endif %}
-
+    
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 sidebar-container">
-
+    
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -171,7 +171,7 @@ layout: default
         			</div>
                 </section>
                 {% endif %}
-
+    
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
@@ -193,7 +193,7 @@ layout: default
 <script type="text/javascript">
     // dynamic User by Hux
     var _user = '{{site.duoshuo_username}}';
-
+    
     // duoshuo comment query.
     var duoshuoQuery = {short_name: _user };
     (function() {
@@ -216,7 +216,7 @@ layout: default
     var disqus_shortname = "{{site.disqus_username}}";
     var disqus_identifier = "{{page.id}}";
     var disqus_url = "{{site.url}}{{page.url}}";
-
+    
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -262,3 +262,17 @@ layout: default
     }
 </style>
 {% endif %}
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
