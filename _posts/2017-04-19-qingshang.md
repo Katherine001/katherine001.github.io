@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "[转载]你的软弱会让他们得寸进尺"
-subtitle:   " \"\""
+subtitle:   " \"--本文来源于豆瓣网\""
 date:       2017-04-19 12:00:00
 author:     "Apple"
 header-img: "img/post-bg-201703.jpg"
@@ -32,7 +32,7 @@ tags:
 
 经历了这么多的委屈了利用，人都会成长，开始学会挑选身边的朋友和伴侣。你身边可能也有这些人，你对他好，但是永远不会得到回报。这个时候，简单一句，Forget about them, move on.  
 
-（本文来源于豆瓣网Apple用户）  
+（本文来源于豆瓣网Apple用户，原文链接[你的软弱会让他们得寸进尺](http://www.douban.com/note/214276641/)）  
 
 
 
