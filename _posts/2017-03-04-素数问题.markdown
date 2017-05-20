@@ -7,8 +7,7 @@ author:     "Alisa"
 header-img: "img/post-bg-201704.jpg"
 catalog: true
 tags:
-    - 程序设计与算法分析
-    - 经验
+    - 数据结构与算法设计
 ---
 
 # 题目：有正整数n（n>=2）,求不大于n的全部素数  

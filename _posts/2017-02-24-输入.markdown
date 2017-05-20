@@ -7,8 +7,7 @@ author:     "Alisa"
 header-img: "img/post-bg-201702.jpg"
 catalog: true
 tags:
-    - 程序设计与算法分析
-    - 经验
+    - 经验笔记
 ---
 
 >"Now,let's go on"
@@ -132,4 +131,3 @@ var duoshuoQuery = {short_name:"alisa"};
 
 
 
-  
