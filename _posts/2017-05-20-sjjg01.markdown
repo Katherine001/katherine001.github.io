@@ -26,7 +26,7 @@ tags:
 7. 定位查找LocateElem(L,e):返回L中第一个值域与e相等的逻辑位序，若不存在，返回0
 8. 插入一个数据元素ListInsert(&L,i,e):在L的第i个元素之前插入新的元素e
 9. 删除数据元素ListDelete(&L,i,&e):删除L的第i个元素，并且用e返回其值  
-<strong>以上就是线性表9个基本运算，针对不同的数据结构的特性，这些运算的实现方法有所不同.</strong> 
+   <strong>以上就是线性表9个基本运算，针对不同的数据结构的特性，这些运算的实现方法有所不同.</strong> 
 
 
 ## 三、线性表的作用  
@@ -35,10 +35,10 @@ tags:
 
 
 ## 四、线性表知识体系  
-![](001.png)  
+![](https://raw.githubusercontent.com/Katherine001/markdowm-photo/master/photo/001.bmp)  
 # 顺序存储结构  
 ## 一、结构图  
-![](002.png)  
+![](https://raw.githubusercontent.com/Katherine001/markdowm-photo/master/photo/002.bmp)  
 ## 二、顺序表类型定义  
 ```c
 typedef struct{
