@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "数据结构基础知识总结（1）"
+title:      "数据结构基础知识总结（1）（未更新完）"
 subtitle:   " \"--顺序表、链表\""
 date:       2017-05-20 12:00:00
 author:     "Alisa"
@@ -8,6 +8,7 @@ header-img: "img/sjjg.jpg"
 catalog: true
 tags:
     - 数据结构与算法设计
+    - 学习笔记
 ---
 # 线性表  
 ## 一、定义及基本概念  
