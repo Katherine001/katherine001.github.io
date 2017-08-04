@@ -1,120 +1,25 @@
 # Site settings
-title: Alisa’s Blog
-SEOTitle: Alisa的博客
-header-img: img/0613.jpg
-email: 1124976925@qq.com
-description: ""
-keyword: ""
-url: "https://huangxuan.me"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+name: Alisa’s Blog
+email: Alisaljn@126.com
+author: Alisa
+baseurl: ""
+description: 有梦就去追啊！趁现在还年轻
+meta_description: Alisa;个人博客;
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# SNS settings
-RSS: false
-weibo_username: 回首见幸福 
-zhihu_username:     
-github_username: katherine001 
-#twitter_username:  
-facebook_username: 
-# linkedin_username: 
-
-
+github_username: katherine001
+highlighter: Pygments
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+markdown: kramdown
 
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 gems: [jekyll-paginate]
 
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-duoshuo_username: 
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "The best preparation for tomorrow is doing your best today."
-sidebar-avatar: /img/ljn.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# 友情链接
-friends : [
-    {
-        title: "sctpan的博客",
-        href: "http://sctpan.top/"
-    },
-    {
-      title: "NNUTC信息工程学院",
-      href: "http://xk.nnutc.edu.cn/"
-    },
-    {
-      title: "蓝桥杯",
-      href: "http://dasai.lanqiao.cn/"
-    },
-    {
-      title: "北大POJ",
-      href: "http://poj.org/"
-    },
-    {
-      title: "浙大ZOJ",
-      href: "http://acm.zju.edu.cn/onlinejudge/"
-    },
-    {
-      title: "中国大学MOOC",
-      href: "http://www.icourse163.org/"
-    },
-    {
-      title: "慕课网——程序员的梦工厂",
-      href: "http://www.imooc.com/"
-    }
-]
