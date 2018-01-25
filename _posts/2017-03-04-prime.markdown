@@ -2,7 +2,7 @@
 layout: post
 title:  数组的综合运用
 date:   2017-03-04 00:00:00 +0800
-categories: document
+categories: 计科
 tag: 教程
 ---
 

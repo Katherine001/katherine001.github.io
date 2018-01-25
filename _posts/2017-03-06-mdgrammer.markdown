@@ -2,7 +2,7 @@
 layout: post
 title:  Markdown语法说明
 date:   2017-03-06 00:00:00 +0800
-categories: document
+categories: 计科
 tag: 经验笔记
 ---
 
