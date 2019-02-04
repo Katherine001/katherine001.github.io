@@ -18,6 +18,8 @@ tag: 祝福
 
 ## 我们要做，更好的自己
 
+##  ![avatar](https://raw.githubusercontent.com/Katherine001/markdowm-photo/master/%E6%97%A0%E6%A0%87%E9%A2%98.png)
+
 
 
 **Alisa写于   2019/02/04    江苏苏州**
