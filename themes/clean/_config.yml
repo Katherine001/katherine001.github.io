@@ -82,3 +82,6 @@ busuanzi:
   site_views: false
   site_visitors: false
   post_views: false
+ 
+local_search:
+  enable: true
