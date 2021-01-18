@@ -1,0 +1,130 @@
+---
+layout: post
+title:  OJ编程题输入数据处理
+date:   2017-02-24 00:00:00 +0800
+categories: 计科
+tag: 经验笔记
+---
+
+* content
+{:toc}
+
+现在越来越多的学校使用了OJ（online jude）平台，在上面发布比赛，通过编译运行选手们提交的代码来获取输出结果，与题目所给的正确输出结果对比，来判断参赛选手的代码正确性。那么我们在使用OJ平台刷题时，也需要根据题目意思注意一下最基本的输入数据处理。  
+
+首先，我们先来讨论一个细节问题。  
+
+C语言中的scanf函数想必大家再熟悉不过了，但肯定会有很多人，不知道这个函数也是有返回值的，我们先来看一下如下一段代码：  
+
+<strong>代码1</strong>
+
+```c
+int n,m;
+printf("%d",scanf("%d%d",&n,&m));
+```
+执行此代码，我们可以发现，scanf(...)表达式的值为int,表示的是成功读入的变量的个数。下面提供了几组输入数据  
+
+输入：12 56<回车>   输出：2   
+
+输入：40 a<回车>   输出：1   
+
+分析这两组数据，我们可以发现如果用户输入的数据类型与指定的数据类型不同，是不能被记作成功读入变量。如果遇到了下面这种情况:   
+
+输入：a 40<回车>   输出：0   
+
+可见，只要第一个没有成功读入，该函数也不会继续执行下去了。 还有一点，scanf表达式的值为EOF，则说明输入数据已经结束。   
+
+下面这个例子，就是利用这个特征实现用户不断输入两个值来计算他们的和。   
+
+<strong>代码2</strong>
+
+```c
+int n,m;
+while(scanf("%d%d",&n,&m)!=EOF)//EOF是直接能够拿来用的
+{
+  printf("%d",n+m);
+}
+```
+
+不停输入两个整数再敲回车，则不停输出他们的和，在windows系统下，如果CTRL+Z，然后回车，程序就能结束.  
+
+那我们在C++中的cin表达式同样也具有返回值，返回值为布尔类型，在成功读入所有变量时，返回值为true，否则为false。同样可以实现和代码1相同的功能:  
+
+<strong>代码3</strong>
+
+```c++
+int n,m;
+while(cin>>n>>m)
+{
+  printf("%d",n+m);
+}
+```
+
+下面我们来看一个实例   
+例题：输入若干个正整数，输出其中最大值.  
+
+Sample Input:  
+2 3 5 6 8 25 88 77  
+Sample Output:  
+88  
+
+思路：我们只需通过前面所学，不断输入符合数据类型的值，输入一个判断一个，如果输入后面的值比前面大，则更新大的值。  
+
+实现代码：  
+<strong>代码4</strong>  
+```c++
+#include<iostream>
+using namespace std;
+int main()
+{
+  int m,mx;
+  while(cin>>m)
+  {
+    if(m > mx)
+    mx = m;
+  }
+  cout<<mx;
+  return 0;
+}
+```
+由此可见一些必要的，却容易被我们忽视的细节问题，如果处理得当，亦可以使一些问题简洁很多，而这些恰恰需要我们去不断探索。
+
+—Alisa 写于  江苏泰州  
+2017.02.24
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"alisa"};
+
+```
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+```
+
+<!-- 多说公共JS代码 end -->
+
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
