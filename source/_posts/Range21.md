@@ -3,7 +3,7 @@ title: 21年Range·韧迹·看世界笔记
 categories: Notes
 tags: study
 subtitle: 看世界，学英文
-cover: /assets/1.jpg
+cover: /assets/2.jpeg
 author: Alisa
 ---
 
