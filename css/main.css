@@ -10,7 +10,7 @@
 }
 body {
 /*font-family: 'Lora', 'Noto Sans TC', 'Times New Roman', serif;*/
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   webkit-tap-highlight-color: #0085a1;
@@ -29,11 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -72,11 +68,7 @@ img::-moz-selection {
   background: transparent;
 }
 .navbar-custom {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   top: 0;
   left: 0;
   z-index: 3;
@@ -114,11 +106,7 @@ img::-moz-selection {
   font-size: 80px;
 }
 .intro-header .site-heading .subheading {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 24px;
   line-height: 1.1;
@@ -131,11 +119,7 @@ img::-moz-selection {
   line-height: 1.1;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 30px;
   margin: 10px 0 30px;
@@ -182,11 +166,7 @@ footer .footer-menu li a:hover {
   bottom: 0;
 }
 .btn {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -679,11 +659,7 @@ figure.highlight pre .string {
   border-bottom: 0;
 }
 #searchModal .search-result-list li a.search-result-title {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 800;
@@ -744,11 +720,7 @@ details.alert {
 }
 .pagination li > a.page-link,
 .pagination li > span {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -817,11 +789,7 @@ details.alert {
   box-shadow: 0 6px 12px rgba(0,0,0,0.175);
 }
 .ui-toc.dropup .dropdown-menu #toc-content {
-  font-family: 'Open Sans';
-/*
- * variables.styl
- * , 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif
- */
+  font-family: 'Open Sans', 'Noto Sans TC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   max-height: 70vh;
   overflow: auto;
   font-size: 0.8em;
