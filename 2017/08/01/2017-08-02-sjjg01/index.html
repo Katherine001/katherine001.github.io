@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!--Description-->
+
+
+
+    <meta name="description" content="This site build on Jan.16th and it will share some study notes from my Foreign Journal studying. "/>
+
+
+<!--Author-->
+
+    <meta name="author" content="Alisa"/>
+
+
+<!--Open Graph Title-->
+
+    <meta property="og:title" content="数据结构专题（1）——绪论"/>
+
+
+<!--Open Graph Description-->
+
+    <meta property="og:description" content="This site build on Jan.16th and it will share some study notes from my Foreign Journal studying. "/>
+
+
+<!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Alisa · 外刊学习"/>
+
+<!--Type page-->
+
+    <meta property="og:type" content="article"/>
+
+
+<!--Page Cover-->
+
+
+    <meta property="og:image" content="http://example.com/img/home-bg.jpg"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+
+
+
+
+    <meta name="twitter:image" content="http://example.com/img/home-bg.jpg"/>
+
+
+<!-- Title -->
+
+<title>数据结构专题（1）——绪论 | Alisa · 外刊学习</title>
+
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<!-- Custom Fonts -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css" />
+<link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css" />
+<link href="//fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Gallery -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/featherlight@1.4.0/src/featherlight.css" integrity="sha256-30DV/STftlyQ6v8yaOWlabammvCYtRJERLj/m0b3zno=" crossorigin="anonymous">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/css/lightgallery.min.css">
+
+<!-- favicon -->
+
+<link rel="icon" href="/img/favicon.png"/>
+
+
+
+    <!-- Google Analytics -->
+    
+
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+<!-- Head tag -->
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top bg-transparent position-absolute w-100 p-0" id="nav">
+    <div class="container pl-0 pr-0">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <a class="navbar-brand text-white p-1 pl-3" href="/">Alisa · 外刊学习</a>
+        </div>
+        <div class="navbar-nav float-right">
+            <button class="btn btn-link search-btn navbar-item" data-toggle="modal" data-target="#searchModal">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+                <div class="post-heading text-white">
+                    <h1>数据结构专题（1）——绪论</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                
+                    <span class="meta d-inline-block">
+    
+        <i class="far fa-bookmark fa-fw"></i>
+        
+
+<a href="/categories/Notes/">Notes</a>
+
+    
+    
+    <!-- Date -->
+    
+        <span class="post-meta-split">&nbsp;|&nbsp;</span>
+        <i class="far fa-calendar-check fa-fw"></i>
+        2017-08-01
+    
+    <!-- word count and read count -->
+    
+        <span class="post-meta-split">&nbsp;|&nbsp;</span>
+        <i class="far fa-file-word fa-fw"></i>
+        1.2k
+    
+
+    
+
+    
+</span>  
+                
+                <ul>
+<li>content<br>{:toc}</li>
+</ul>
+<h1 id="一、数据结构学习方法"><a href="#一、数据结构学习方法" class="headerlink" title="一、数据结构学习方法"></a>一、数据结构学习方法</h1><ul>
+<li>理解各种数据结构的逻辑特性和存储结构设计  </li>
+<li>掌握各种数据结构算法设计的基本方法  </li>
+<li>利用各种数据结构来求解实际问题  </li>
+<li>演绎和归纳相结合  <h1 id="二、数据结构的定义"><a href="#二、数据结构的定义" class="headerlink" title="二、数据结构的定义"></a>二、数据结构的定义</h1><h2 id="数据结构中的几个概念"><a href="#数据结构中的几个概念" class="headerlink" title="数据结构中的几个概念"></a>数据结构中的几个概念</h2></li>
+<li>数据：所有能够输入到计算机中，且能被计算机处理的符号的集合。  </li>
+<li>数据元素：是数据（集合）中的一个“个体”，它是数据的基本单位。  </li>
+<li>数据项：数据项是用来描述数据元素的，它是数据的最小单位。  </li>
+<li>数据对象：具有<strong>相同性质</strong>的若干个数据元素的集合，如整数数据对象是所有整数的集合。<br>默认情况下，数据结构中讨论的数据都是数据对象。  </li>
+<li>数据结构：是指<strong>带结构</strong>的数据元素的集合。  <h1 id="三、数据的结构表示"><a href="#三、数据的结构表示" class="headerlink" title="三、数据的结构表示"></a>三、数据的结构表示</h1><h2 id="数据的逻辑结构表示"><a href="#数据的逻辑结构表示" class="headerlink" title="数据的逻辑结构表示"></a>数据的逻辑结构表示</h2>表示形式有：表格、二元组、图形。  <h2 id="数据的存储结构表示"><a href="#数据的存储结构表示" class="headerlink" title="数据的存储结构表示"></a>数据的存储结构表示</h2><h3 id="结构体数组"><a href="#结构体数组" class="headerlink" title="结构体数组"></a>结构体数组</h3>【例】存放学生表的结构体数组Stud定义如下：  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">  <span class="keyword">int</span> no;</span><br><span class="line">  chasr name[<span class="number">8</span>];</span><br><span class="line">  <span class="keyword">char</span> sex[<span class="number">2</span>];</span><br><span class="line">  <span class="keyword">char</span> <span class="class"><span class="keyword">class</span>[4];</span></span><br><span class="line">&#125;Stud[<span class="number">7</span>]=&#123;&#123;<span class="number">1</span>,<span class="string">&quot;zhangsan&quot;</span>,man,<span class="string">&quot;9901&quot;</span>&#125;&#125;;</span><br></pre></td></tr></table></figure>
+特点：所有元素占用一整块内存空间；逻辑上相邻的元素，物理上也相邻。（顺序存储结构）  <h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3>【例】存放学生表的链表的节点类型StudType声明如下：<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">studnode</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">  <span class="keyword">int</span> no;</span><br><span class="line">  chasr name[<span class="number">8</span>];</span><br><span class="line">  <span class="keyword">char</span> sex[<span class="number">2</span>];</span><br><span class="line">  <span class="keyword">char</span> <span class="class"><span class="keyword">class</span>[4];</span></span><br><span class="line">  <span class="class"><span class="keyword">struct</span> <span class="title">studnode</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125;StudType;</span><br></pre></td></tr></table></figure>
+特点：一个逻辑元素用一个节点存储，每个节点单独分配，所有节点的地址不一定是连续的。用指针来表示逻辑关系。（链式存储结构）  <h1 id="四、算法"><a href="#四、算法" class="headerlink" title="四、算法"></a>四、算法</h1><h2 id="算法的5个重要特性："><a href="#算法的5个重要特性：" class="headerlink" title="算法的5个重要特性："></a>算法的5个重要特性：</h2>有穷性、确定性、可行性、有输入、有输出  <h2 id="输出型参数："><a href="#输出型参数：" class="headerlink" title="输出型参数："></a>输出型参数：</h2>在C++语言中提供了一种<strong>引用</strong>运算符“&amp;”用于描述输出型参数。<br>【例】交换两个整数的算法：  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span> &amp;x,<span class="keyword">int</span> &amp;y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> temp = x;</span><br><span class="line">  x = y;</span><br><span class="line">  y = temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="算法分析基础"><a href="#算法分析基础" class="headerlink" title="算法分析基础"></a>算法分析基础</h2><h3 id="算法时间复杂度分析"><a href="#算法时间复杂度分析" class="headerlink" title="算法时间复杂度分析"></a>算法时间复杂度分析</h3>分析算法的执行时间：  </li>
+<li>求出算法所有原操作的执行次数（频度），它是<strong>问题规模n</strong>的函数，用T(n)表示</li>
+<li>算法执行时间大致 = 原操作所需要的时间xT(n)。所以T（n）与算法执行时间成正比，为此用T（n）表示算法的执行时间  </li>
+<li>比较不同算法的T(n)大小得出算法执行时间的好坏。<br>算法的执行时间用时间复杂度来表示：<br>T(n)=O(f(n))<br>常见时间复杂度：  </li>
+<li>一个没有循环的算法的执行时间与问题规模n无关，记作O(1)，也称作<strong>常数阶</strong>  </li>
+<li>一个只有一重循环的算法的执行时间与问题规模n的增长呈线性增大关系，记作O(n)，也称<strong>线性阶</strong>  </li>
+<li>其余常用时间复杂度还有<strong>平方阶</strong>O(n^2),<strong>立方阶</strong>O(n^3)<strong>对数阶</strong>O(log n),<strong>指数阶</strong>O(2^n)等。<br>各种不同算法时间复杂度的大小关系如下：<br><img src="https://raw.githubusercontent.com/Katherine001/markdowm-photo/master/photo/sjjg1.PNG"><br>算法的空间复杂度分析：<br>定义：用于量度一个算法在运行过程中<strong>临时占用的存储空间大小</strong>，一般也作为问题规模n的函数，记作：S(n)=O(g(n))<br>若一个算法的空间复杂度为O(1)，则称此算法为<strong>原地工作</strong>或<strong>就地工作</strong>算法。  <h1 id="五、例题选讲"><a href="#五、例题选讲" class="headerlink" title="五、例题选讲"></a>五、例题选讲</h1>【例1】求两个n阶方阵的相加C=A+B的算法如下，分析时间复杂度：<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX 20  </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">matrixadd</span><span class="params">(<span class="keyword">int</span> n,<span class="keyword">int</span> A[MAX][MAX],<span class="keyword">int</span> B[MAX][MAX],<span class="keyword">int</span> C[MAX][MAX])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i,j;</span><br><span class="line">  <span class="keyword">for</span>( i = <span class="number">0</span>;i &lt; n;i ++ )</span><br><span class="line">  	<span class="keyword">for</span>( j = <span class="number">0</span>;j &lt; n;j ++ )</span><br><span class="line">  		C[i][j] = A[i][j] + B[i][j];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<img src="https://raw.githubusercontent.com/Katherine001/markdowm-photo/master/photo/sjjg2.PNG"><br>【例2】分析以下算法的空间复杂度:  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fun</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i,j,k,s;</span><br><span class="line">  s = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt;= n;i ++)</span><br><span class="line">  	<span class="keyword">for</span>(j = <span class="number">0</span>;j &lt;= i;j ++)</span><br><span class="line">  		<span class="keyword">for</span>(k = <span class="number">0</span>;k &lt;= j;k ++)</span><br><span class="line">  			s++;</span><br><span class="line">  <span class="keyword">return</span>(s);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+【解】：算法中临时分配的变量个数与问题规模n无关，所以空间复杂度均为O(1)<br>【例3】分析下面算法的时间复杂度，并给出必要过程  <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i=<span class="number">0</span>,s=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">while</span>(s&lt; n)</span><br><span class="line">  &#123;</span><br><span class="line">    i++;</span><br><span class="line">    s+=i;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+该题目留作作业，答案下期公布<br>数据结构专题每周更新2期，敬请关注！<br>Alisa写于江苏省苏州市 2017.08.02</li>
+</ul>
+
+            </div>
+
+            <!-- Post information -->
+            
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 post-tags">
+        
+            <i class="fas fa-tag" style="vertical-align: middle;font-size: .8rem;"></i>
+            tags:&nbsp;
+            
+            
+        
+            <a href="/tags/Study/">#Study</a>
+        
+    </div>
+
+            
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+        <ul class="pagination d-block text-center">
+            
+                <li class="previous page-item d-inline"><a href="/2017/08/03/2017-08-04-newblog/" class="page-link float-left">&larr;  下一页</a></li>
+            
+            
+                <li class="next page-item d-inline"><a href="/2017/06/02/2017-06-03-enter/" class="page-link float-right">上一页  &rarr;</a></li>
+            
+        </ul>
+    </div>
+
+
+            
+                <!-- Comments -->
+                
+
+                
+
+            
+
+        </div>
+    </div>
+</article> 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    <style>
+        #toc-content .toc-link::before {
+            background-color: transparent;
+            max-height: 25px;
+        }
+
+        #toc-content .toc-link.is-active-link::before {
+            background-color: #404040;
+        }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <div class="ui-toc dropup scrollspy-body pull-right" style="right: 3%;">
+        <button type="button" class="toc-btn btn btn-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+            <i class="fas fa-list"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right p-2"  aria-labelledby="tocLabel">
+            <div class="toc-widget">
+                <div id="toc-content" class="text-truncate">
+                </div>
+            </div>
+            <div class="toc-menu pt-3 pl-4">
+                <a class="expand-toggle d-block py-1" href="#"><span class="expand-text">全部展开</span><span class="close-text" style="display: none;">全部收起</span></a>
+                <a class="back-to-top d-block py-1" href="#">回到顶部</a>
+                <a class="go-to-bottom d-block py-1" href="#">移至底部</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        tocbot.init({
+            // Where to render the table of contents.
+            tocSelector: '#toc-content',
+            // Where to grab the headings to build the table of contents.
+            contentSelector: 'article',
+            // Which headings to grab inside of the contentSelector element.
+            headingSelector: 'h1, h2, h3',
+            // For headings inside relative or absolute positioned containers within content.
+            hasInnerContainers: true,
+        });
+    </script>
+
+
+    
+
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 text-center">
+                <ul class="list-inline">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <ul class="copyright footer-menu list-inline">
+                    
+                    
+                        <li class="list-inline-item">
+                            
+                            
+                            <a href="/">
+                                
+                                    Home
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/archives">
+                                
+                                    Archives
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/tags">
+                                
+                                    Tags
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/categories">
+                                
+                                    Categories
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="list-inline-item">
+                            
+                                <span class="copyright-split">&nbsp;|&nbsp;</span>
+                            
+                            
+                            <a href="/about">
+                                
+                                    About
+                                
+                            </a>
+                        </li>
+                    
+                </ul>
+                <p class="copyright footer-author">
+                    &copy; -2021 
+                    <a rel="external" class="copyright-link" href="" target="_blank">Alisa</a><br/>
+                    Powered by <a rel="external" class="copyright-link" href="https://hexo.io/" target="_blank">Hexo</a>  
+                    <span class="copyright-split">&nbsp;|&nbsp;&nbsp;</span>
+                    Theme <a rel="external" class="copyright-link" href="https://github.com/luswdev/hexo-theme-clean.git" target="_blank">Clean</a>
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    <!-- jQuery -->
+<script src="//cdn.jsdelivr.net/npm/jquery@2.1.4/dist/jquery.min.js"></script>
+
+<!-- For drop down -->
+<script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+<!-- Gallery -->
+<script src="//cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/js/lightgallery-all.min.js"></script>
+<!-- Busuanzi -->
+
+
+<!-- Search script -->
+
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        searchFunc( '/search.xml' , 'searchInput', 'searchResult');
+    });
+</script>
+
+
+
+<script src="/js/main.js"></script>
+
+
+
+    <!-- Search Modal -->
+    <!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+        <div class="modal-content overflow-auto">
+            <div class="modal-header">
+                <input type="text" class="form-control" placeholder="搜索关键词..." id="searchInput">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div id="searchResult">
+                    <div class="search-empty text-center text-muted p-5">
+                        <i class="far fa-meh"></i>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
