@@ -3,7 +3,7 @@ title: 长难句第二季笔记
 categories: Notes
 tags: study
 subtitle: 迎难而上
-cover: /assets/3.jpeg
+cover: /assets/3.jpg
 author: Alisa
 ---
 
