@@ -1,13 +1,17 @@
 ---
 title: 长难句第二季笔记
 categories: Notes
-tags: study
+tags: Study
 subtitle: 迎难而上
 cover: /assets/3.jpg
 author: Alisa
+date:   2021-01-21 00:00:00 +0800
 ---
 
+> 本笔记配套课程为丁晓钟老师的《长难句魔鬼训练营第二季》，该课程同时为《Range·韧迹·看世界》的赠送课程，[点击购买与我共同进步](https://www.cctalk.com/m/group/89138944?xh_preshareid=37f6d93d-d339-4ec2-abcd-7a6f42cee888&xh_fshareuid=118391021&channel=copy&platform=pc)~
+
 # 第一句
+
 In laboratories at the Oldham <u>General Hospital</u> in Lancashire and at the University of Cambridge, <u>human eggs</u> have now been successfully brought to maturity, <u>fertilized in vitro</u> and <u>cultured in vitro</u> to the <u>blastocyst</u> stage of development, which is the stage immediately <u>preceding</u> the beginning of normal <u>implantation</u> of the fertilized egg in the <u>uterus</u>. （Scientific American）
 
 ## 【词汇】

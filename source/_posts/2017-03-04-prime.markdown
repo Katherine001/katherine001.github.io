@@ -1,0 +1,118 @@
+---
+layout: post
+title:  数组的综合运用
+date:   2017-03-04 00:00:00 +0800
+categories: Notes
+tag: Study
+---
+
+* content
+{:toc}
+
+# 题目：有正整数n（n>=2）,求不大于n的全部素数  
+
+这是一个很简单，然而又很经典的算法问题。对于初学程序设计语言的人，在学到循环章节必然会遇到这道题，解法也很简单，结合取模运算和二重循环即可求解。  
+
+## 常规解法  
+
+```c++
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n;
+  cin >> n;
+  for( int i = 2; i <= n; ++i )
+  {
+    int k;
+    for( k = 2; k < i; ++k )
+    {
+          if( i % k == 0 )
+          break;
+    }
+    if( k == i )
+    cout << i << endl;
+  }
+  return 0;
+}
+```
+上面这种解法，有几个弊端，就是做了没有必要的尝试，k大于i的平方根以后就没必要再尝试了，具体的原因读者结合数学想想也就明白了。还有，除2以外偶数也显然不是素数，所以在程序的优化中也应该考虑这一点。下面是优化后的代码。  
+
+## 常规解法（优化版）  
+
+
+```c++
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n;
+  cin >> n;
+  cout << 2 << endl;//先把特殊情况素数2输出
+  for( int i = 3; i <= n; i += 2 )
+  {
+    //每次判断i是否是素数
+    int k;
+    for( k = 3; k < i; k += 2 )
+    {
+      if( i % k == 0 )  break;
+      if( k * k > i )  break;
+    }
+    if( k * k > i )  cout << i << endl;
+  }
+  return 0;
+}
+```
+当我们学习了一维数组以后，我们也可以结合其知识来设计出一个更加快的算法，其思路是：把2到n中的所有数都列出来，然后从2开始，先划掉n以内所有2的倍数，然后每次从下一个剩下的数（必然是素数）开始，划掉其n内的所有倍数。最后剩下的数就都是素数。我们把这个方法称为<strong>筛法求素数</strong>。  
+实际实现这个算法，和前面的算法不同，我们需要设置一个标志数组<strong>isPrime</strong>，isPrime[i]的值是1，代表i是素数，当然，我们一开始把所有数组元素值都赋予1。  
+然后，我们划掉k的倍数，就是把isPrime[ 2 * k ]，isPrime[ 3 * k ]......置为0。  
+最后检查isPrime数组，输出isPrime[i]为1的那些i。  
+
+## 筛法求素数代码  
+
+```c++
+#include<iostream>
+using namespace std;
+#define MAX_NUM 10000
+char isPrime[MAX_NUM + 1];//最终如果isPrime[i]为1，则表示i是素数，定义为char类型可以节省存储空间
+int main()
+{
+  for( int i = 2; i <= MAX_NUM; ++i )//开始假设所有数都是素数
+    isPrime[i] = 1;
+  for( int i = 2; i <=MAX_NUM; ++i )
+  {
+    //每次将一个素数的所有倍数标记为非素数
+    if(isPrime[i])//只标记素数的倍数
+    for( int j = 2 * i; j <= MAX_NUM; j += i )
+    isPrime[j] = 0;//将素数i的倍数标记为非素数
+  }
+  for( int i = 2; i <= MAX_NUM; ++i)
+  if( isPrime[i] )
+  cout << i << endl;
+  return 0;
+}
+```
+
+<strong>小结</strong>  
+
+本算法也体现了一个思想，就是我们在内存够用的时候，也可以通过内存换时间，加快算法的计算速度。  
+
+—Alisa 写于  江苏泰州  
+2017.03.04  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+

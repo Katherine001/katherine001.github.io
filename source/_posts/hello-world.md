@@ -1,10 +1,11 @@
 ---
 title: 重启博客
 categories: Random thoughts
-tags: life
+tags: Life
 subtitle: 分享点滴，遇见美好。
 cover: /assets/1.jpg
 author: Alisa
+date:   2021-01-17 00:00:00 +0800
 ---
 当大家看见这篇文章，时隔我上一个博客关闭已接近两年。
 
