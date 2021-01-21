@@ -8,11 +8,9 @@ author: Alisa
 ---
 
 # 第一句
-
 In laboratories at the Oldham <u>General Hospital</u> in Lancashire and at the University of Cambridge, <u>human eggs</u> have now been successfully brought to maturity, <u>fertilized in vitro</u> and <u>cultured in vitro</u> to the <u>blastocyst</u> stage of development, which is the stage immediately <u>preceding</u> the beginning of normal <u>implantation</u> of the fertilized egg in the <u>uterus</u>. （Scientific American）
 
 ## 【词汇】
-
 - General Hospital 综合医院
 - human eggs 人类卵子
 - fertilized 受精
@@ -24,19 +22,12 @@ In laboratories at the Oldham <u>General Hospital</u> in Lancashire and at the U
 - uterus 子宫
 
 ## 【拓展】
-
 - scientific name 学名
-
 - set a precedent 开创一个先例
-
   unprecedented 史无前例的
-
 - bring sth. to maturity 使……成熟
-
 - 【句子填空】
-
   The <u>emergence</u> of Bitcoin, a <u>decentralized</u> <u>peer-to-peer</u> digital currency, brought <u>block</u> chain technology to maturity.
-
   - emergence 兴起
   - decentralized 去中心化的
   - peer-to-peer 点对点的
