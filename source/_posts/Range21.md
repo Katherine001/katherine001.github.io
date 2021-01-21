@@ -12,7 +12,7 @@ date:   2021-01-18 00:00:00
 
 # 1月20日 Trump Farewell Message
 
-![alt](/assets/4.jpg)
+![Trump Farewell Message](/assets/4.jpg)
 
 > We did what we came here to do and so much more. This week we inaugurate a new administration and pray for its success in keeping America safe and prosperous. We extend our best wishes and we also want them to have luck.
 
@@ -22,6 +22,7 @@ date:   2021-01-18 00:00:00
 - prosperous 繁荣
 - <u>extend</u> our best wishes <u>致以</u>我们最好的祝愿
 - 【补】make a comeback 卷土重来
+
 > All Americans were horrified by the assault on our Capitol. Political violence is an attack on everything we cherish as Americans. It can never be tolerated. Now more than ever we must unify around our shared values and rise above the partisan rancor.
 
 **【词汇】**
@@ -34,7 +35,6 @@ date:   2021-01-18 00:00:00
 - the partisan rancor 党派仇恨
 
 **【拓展】**
-
 - 造句：同样重要的是，我们必须竭尽全力维护我们作为文明社会成员所珍视的一切。
 Equally important is that we must do all in our power to preserve everything we cherish as members of a civilized society.
 也可以使用“It is equally important that ...”
