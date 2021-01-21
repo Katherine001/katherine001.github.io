@@ -71,15 +71,21 @@ Markets opened lower Friday after President-elect Joe Biden released the details
 
 # 第六句 
 
-Female-oriented dating app Bumble, which boasts a feature that only allows women to make the move first, has half of the number of monthly active users of Badoo, a much older dating product, with a larger presence in Europe and Latin America — but Bumble’s core base is much more willing to pay. （Forbes）
+<u>Female-oriented</u> <u>dating app</u> Bumble, which <u>boasts</u> a feature that only allows women to make the move first, has half of the number of monthly active users of Badoo, <u>a much older</u> dating <u>product</u>, with a larger <u>presence</u> in Europe and Latin America — but Bumble’s core base is much more willing to pay. （Forbes）
 
 ## 【词汇】
+- female-oriented 以女性用户为导向的
+- dating app 约会应用
+- boast 拥有
+- product替换app
+- presence 影响力
+- core base 核心用户群
+  base 主要用户群
 
 ## 【拓展】
-
-
-
-
+- customer/client/user+base 指主要用户群
+  voter base 选民基本盘
+- <u>a much older</u> dating product…… 表示强调，强调历史久远得多
 
 
 
