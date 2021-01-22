@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博客--寒假回顾以及开学规划</title>
-    <url>/2017/02/15/2017-02-16-review/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}</li>
-</ul>
-<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>开通博客这件事情，在常人眼里看起来很容易，不就是注册一个帐号吗，我在这之前也是这么认为的。这个寒假，我从sctpan那了解到了利用 jekyll和Github搭建有着自己域名的专属博客。了解到这个想法的时候，我从内心里认为这一定非常麻烦，好在热心的sctpan带着我一步步走，终于也是花了半天的时间将博客成功上线，我的这篇博客最后也会把教程网页分享给大家。<br>好了，接下来谈谈正事。读者可以通过点击下面的两个连接直接跳转到想要阅读的地方。<br><a href="#build01">我的寒假回顾</a><br><a href="#build02">我的开学规划</a><br><a href="#build03">博客实现教程</a></p>
-<p id= "build01"></p>
----
-
-<h3 id="寒假生活回顾"><a href="#寒假生活回顾" class="headerlink" title="寒假生活回顾"></a>寒假生活回顾</h3><p>这个寒假，我觉得我可以用一个成语来形容，浑浑噩噩，一点也不为过。放假之前计划好要干的事情，比如听听mooc，刷刷算法题，甚至自学一下c++，也是没能够坚持下去。寒假由于天气寒冷，每天早上起床就已经很晚了。然后紧接着吃午饭，下午时而出去和同学玩，时而在家里刷剧，倒过得挺悠闲。我深知这不是一个计科的人应该的生活。现在想想自己也是挺颓废的了。这个寒假游戏也是没少打，又重温了一下《仙剑4》，和同学在盒子上联机玩了minecraft，好吃的也没有少吃。嘻嘻，是时候该运动起来啦。<br>总而言之，寒假也就这么过去了，也没有什么好挽留的，也许，学校生活能够让我的作息时间表合理起来吧，那接下来，我就来说说我的开学生活规划吧，也算是为自己设定一个小目标。</p>
-<p id="build02"></p>
----
-
-<h3 id="我的开学规划"><a href="#我的开学规划" class="headerlink" title="我的开学规划"></a>我的开学规划</h3><p>我所在的学校是师范类型的学校，周围也很少人真正认真去学习这一专业，包括我也是，大一时候也没有学习过这一专业，也错过了计算机专业最核心的一门课–数据结构，虽然还是及格了，要说实际应用到算法的实现中，我应该还算是个门外汉。所以一方面我在mooc上选了一门浙江大学的数据结构，差不多3月份开始，每个星期花那么点时间重新把数据结构给学扎实，下学期我也需要准备蓝桥杯竞赛，数据结构和算法的学习也是相辅相成的，希望能够取得一个好成绩吧，最后一方面有关专业的就是学习一门新的语言python，可能有人会推荐c++，但我觉得c++也只需要了解c语言不具有的，一方面有关面向对象特性的，还有一方面stl库的使用，因为这可以大大方便我们使用一些数据结构。<br>除了有关学习，我觉得我还需要开阔我的视野，多读几本好书，多去外面转转，我个人觉得我在人际关系处理方面还有欠缺，从我和室友的关系方面就可以看出，我也希望我能通过自己的努力，一方面不耽误自己学习，另一方面能够和形形色色的人打交道，早日成为更好的自己！</p>
-<p id="build03"></p>
----
-
-<h3 id="博客教程分享"><a href="#博客教程分享" class="headerlink" title="博客教程分享"></a>博客教程分享</h3><p>下面是几个教程，感兴趣的可以了解一下<br>1.<a href="https://bigballon.github.io/posts/jekyll-github.html">jekyll+github搭建个人博客</a><br>2.<a href="http://jekyllcn.com/">jekyll中文详细教程</a><br>3.<a href="http://www.appinn.com/markdown/index.html#misc">MareDown中文教程</a></p>
-<p>—Alisa 写于  江苏苏州<br>2017.02.16  </p>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
-
-
-
-
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>OJ编程题输入数据处理</title>
     <url>/2017/02/23/2017-02-24-cin/</url>
     <content><![CDATA[<ul>
@@ -229,20 +177,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </tags>
   </entry>
   <entry>
-    <title>五月小结</title>
-    <url>/2017/05/30/2017-06-01-5summar/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}<br>时间过得真快啊，距离放假又只有一个月了，仿佛感觉昨天才刚开学。期初给自己定的目标虽然也在尽力去完成，但是还是感觉自己荒废了很多时间，学习好像也一直不在状态。<br>在过去的5月份，我尝试着去每天早起1小时去背一些英语单词，读一些英语美文，对于我而言，英语底子比较弱。因此我认为英语的学习还是打基础为主，任何的考试其核心就在于词汇量和阅读能力上。<br>专业课的学习方面，Android的学习让我认识到对于算法和数据库原理的理解程度，直接会反映到所完成项目的质量上，因此，当学习遇到瓶颈的时候，更要去回头看看以前的基础知识，只有不断运用映像才会更加深刻。对于学校这学期开设的数字电路课程，我感觉自己学得迷迷糊糊，上课上着上着就打瞌睡了~~实在惭愧啊。从4月初开始到现在，我每天也花一点时间去回顾数据结构的内容，直到现在也才啃了一半。对于以后的考研来说，数据结构非常的重要，里面的知识点也非常多，所以还是需要多花一点时间。<br>还有不到一个月，各种考试接踵而来，虽然自己很反感为了考试而学习，但是学分和绩点是很现实的问题，因此6月需要我再辛苦一点了。<br>总体来说，我觉得自己的学习状态还是比较差的，有很多时候感觉时间没能充分利用好，但是我希望每一天我都能效率提高一点，前方的路还很长，唯有坚持住才能不断成长，早日实现自己的梦想，为以后的美好生活做好铺垫。<br>最后，祝大家六一快乐，永远保持着一颗年轻的心！<br>——Alisa写于江苏泰州<br>2017.06.01</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>OJ编程题输入输出数据处理（标准文档）</title>
     <url>/2017/06/02/2017-06-03-enter/</url>
     <content><![CDATA[<ul>
@@ -332,21 +266,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </tags>
   </entry>
   <entry>
-    <title>新博客</title>
-    <url>/2017/08/03/2017-08-04-newblog/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}</li>
-</ul>
-<p>今天下午花了两个小时重新给博客换了新面貌，新的博客相比原来的博客主题，显得更加简洁，主要采用纯色调，没有那么多花里胡哨的图片。在使用原来的主题时，由于强迫症，每次写博文都要花时间找配图，现在完全没有这个问题了。新的博客主题下，博文的排版格式也是相对于以前的主题，我比较喜欢的部分。我选择这一款主题，也是比较了很多的主题后仔细考虑定夺下来的，选择这样的主题，是希望我的博客能使读者更加关注博文本身的内容。现在我的水平有限还不能有把握地自己原创出一套主题来，但是我相信那一天总会到来，我也能够自己玩出自己的风格。<br>在接下来的日子，我尽量会把发布博文的频率提高一些，将自己所学的，以及计算机专业重要学科的基础知识及时进行归纳总结，开学就要大三了，也要开始准备考研了，同样和考研有关的一些知识整理也会总结在我的博文里，希望同道中人能给予指点，有错误的地方欢迎给我发送邮件，邮箱：<a href="mailto:&#x61;&#108;&#105;&#x73;&#x61;&#108;&#x6a;&#x6e;&#64;&#49;&#x32;&#54;&#x2e;&#x63;&#111;&#109;">&#x61;&#108;&#105;&#x73;&#x61;&#108;&#x6a;&#x6e;&#64;&#49;&#x32;&#54;&#x2e;&#x63;&#111;&#109;</a>，愿我们共同进步。<br>Alisa写于江苏省苏州市<br>2017.08.04</p>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言指针练习</title>
     <url>/2017/08/25/2017-08-26-ex/</url>
     <content><![CDATA[<ul>
@@ -359,21 +278,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </categories>
       <tags>
         <tag>Study</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开学啦</title>
-    <url>/2017/09/03/2017-09-04-kx/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}</li>
-</ul>
-<p>暑假一晃而过，转眼又开学了。这个暑假个人觉得还算充实，去了一趟广州旅游，领略了广式茶点的美妙，欣赏了广州的建筑，图书馆，大剧院，科学馆这些建筑各有特色，尤其在晚上，灯光的效果下，在熙熙攘攘的人群中更是为广州这座繁华增加了些许科技之美感。广州的交通系统也是非常发达，地铁几乎能到达任何想去的地方，街边的共享单车也是数量庞大，真正满足了人们的出行之便利。不愧是大都市！<br>开学迈入了大三的学习，课表上的课也全换成了专业课，每一门课都需要我去认真钻研体会，或许这样我才能更加确切的选择我的心中理想的研究路线。身边不少同学开始准备考教师资格证，考研等等，我觉得这才是我们年轻人该做的事情，趁早选择好自己要走的道路，尽情地挥洒汗水，回报总会有的。虽然我们每个人都很平凡，但是人总想突破自己，使自己变得不平凡，这或许就是青春的意义吧。<br>在这里要特别感谢一下我的研友樱薇，很高兴在这所大学遇见了志同道合的你，我希望在今后的学习道路上能够一直与你同行！<br>——Alisa写于江苏泰州<br>2017.09.04</p>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
       </tags>
   </entry>
   <entry>
@@ -391,55 +295,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </categories>
       <tags>
         <tag>Study</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2018第一篇博客--一点感想</title>
-    <url>/2018/01/24/2018-01-25-yi/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}</li>
-</ul>
-<p>寒假过了十来天，到了第五天左右的时间，也把自己从散漫的状态调整了过来，从期末考试考完结束放肆状态到规律的生活也不是一下功夫能适应的。在刚刚过去的一学期，觉得自己也算是很浪了吧，本身对于学校所开设的课程不大满意，觉得很多课程没有学的必要，不应该是CS的重点，而一些重点课程学校反而没有足够重视甚至舍去一些重点科目，用类似于ps这种课程取代了专业课的位置，在得知期末考试针对每门课都要进行笔试考核的时候我彻底慌了——真的是0基础啊，在半个星期的时间我突破了8门课，最终成绩下来的时候还是挂了一门纯背书的课，这让我一度感觉十分羞耻，但是想想也是自己活该，<del>谁让我这么浪呢（虽然还是充满了对那个老师的愤懑）</del>，毕竟学习生活还是要往前看的，下学期的课程现在也排了出来，选修课也选了两门自认为比较有用的课程，今年的十二月份我也将踏上研究生考试的考场，对于接下来寒假的日子，我也准备每天花时间在公共课数学和英语上，下个学期不出意外的时候也是在自习室图书馆度过了，过几天我也会为自己列一份考研复习期间的日程表，这份表格也应该是我认为适合自己的，而不是参考别人的计划，但是我也愿意把它分享给同道中人参考。对于考研这件事情，我信心还是比较充足的，在这两天的复习中，我也陆陆续续捡起了大一时的高数基础知识，也逐渐感受到了高三日日夜夜刷题的感觉，其实对于我们本身来说，要想做好这件事情，应该调整心态去享受它，虽然没有人会觉得考研过程是一件有意思的事情，但是我们应该发挥自己的主观能动性，同样做事情我们肯定希望以一种轻松的方式（心态上放松而不是行动上放松），必然会取得自己理想的成果。也会是自己的一段难忘的经历。<br>在这一年里，我也会继续保持博客的更新（可能频率会比较低，一个月2—3次吧），主要还是以随笔，生活感想体会也好，一闪而过的灵感也好，预祝自己今年能一帆风顺吧，也预祝读者们能够在2018年与自己心中的理想更近一步吧，谢谢！<br>——Alisa写于江苏苏州<br>2018年1月25日晚9点</p>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写在2019的第一篇blog</title>
-    <url>/2019/01/13/2019-01-14-gh/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}</li>
-</ul>
-<h1 id="回顾2018"><a href="#回顾2018" class="headerlink" title="回顾2018"></a>回顾2018</h1><h2 id="一、学业"><a href="#一、学业" class="headerlink" title="一、学业"></a>一、学业</h2><p>这一年的学业，似乎没有什么大的突破，4月初参加了第九届蓝桥杯程序设计竞赛，依旧是一个很弱鸡的省三。去年同我一同参加的拿了省三的小伙伴此次晋级了国赛，看着他去北京参加决赛或多或少自己也是有些自责的，不过也替他感到高兴，毕竟一分耕耘一分收获，是我自己偷懒了没有下足功夫。  </p>
-<p>大三下学期，成绩依旧稳定在班级前五，如愿拿了滚动二等奖学金，也算比之前每年的三等奖学金稍微好看点了。  </p>
-<p>暑假的时候开始准备2019研究生入学考试，可惜的是由于自己的身体问题没有坚持下去，现在想来自己不应该放弃的。  </p>
-<p>11月的时候开始自学Java开发岗的知识，每天看看视频敲敲代码，日子过得也是很惬意的。  </p>
-<h2 id="二、生活"><a href="#二、生活" class="headerlink" title="二、生活"></a>二、生活</h2><p>平平淡淡，庸庸碌碌，这八个字可以概括我2018年的生活了。  </p>
-<h1 id="规划2019"><a href="#规划2019" class="headerlink" title="规划2019"></a>规划2019</h1><p>这一年，注定是我人生中不平凡的一年，面临着毕业实习，毕业设计，考研等众多事物，其他的也不多说，在这里先立一些flag，等到年底的时候再来看看自己完成了哪些。  </p>
-<ul>
-<li>找到一份满意的实习，能够尽可能多积累一些项目经验</li>
-<li>完善自己的Java开发技术栈</li>
-<li>毕业设计拿到优秀评价</li>
-<li>充分准备2020考研初试</li>
-<li>拿到驾照</li>
-<li>学会做一些家常菜</li>
-<li>找到自己的另一半</li>
-</ul>
-<p>最后，想和各位分享一句话：  </p>
-<p><strong><em>种一棵树的最好时间是十年前，其次是现在</em></strong>  </p>
-<p>愿我们能够珍惜当下时光，好好把握！  </p>
-<p><strong>Alisa写于   2019/01/14    江苏南京</strong></p>
-<p>​        </p>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
       </tags>
   </entry>
   <entry>
@@ -572,86 +427,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </tags>
   </entry>
   <entry>
-    <title>2020考研数学备考——网课和辅导书推荐方案</title>
-    <url>/2019/01/26/2019-01-27-kysx/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}<h1 id="designed-by-Alisa"><a href="#designed-by-Alisa" class="headerlink" title="designed by Alisa"></a><strong>designed by Alisa</strong></h1></li>
-</ul>
-<p><em>结合<strong>19备考经验、知乎大神</strong>的推荐</em></p>
-<p><em>总领：数学备考，<strong>听课5成，练习5成</strong></em></p>
-<h2 id="一、教材、参考书准备"><a href="#一、教材、参考书准备" class="headerlink" title="一、教材、参考书准备"></a>一、教材、参考书准备</h2><h3 id="基础阶段（2-6月）"><a href="#基础阶段（2-6月）" class="headerlink" title="基础阶段（2-6月）"></a>基础阶段（2-6月）</h3><p><strong>1.《高等数学（上、下）》同济第七版</strong> <em>（线性代数、概率论课本不用买）</em></p>
-<p><strong>2.《李永乐考研数学复习全书（基础篇）》</strong></p>
-<p><strong>3.   公式手册</strong></p>
-<p><strong>4.《数学基础过关660题》</strong></p>
-<h3 id="强化阶段（7-9月）"><a href="#强化阶段（7-9月）" class="headerlink" title="强化阶段（7-9月）"></a>强化阶段（7-9月）</h3><p><strong>5.《汤家凤高等数学辅导讲义》</strong></p>
-<p><strong>6《李永乐线性代数辅导讲义》</strong></p>
-<p><strong>7.《王式安概率论与数理统计辅导讲义》</strong></p>
-<p><strong>8.《数学强化通关330题》</strong></p>
-<h3 id="真题阶段（9-10月）"><a href="#真题阶段（9-10月）" class="headerlink" title="真题阶段（9-10月）"></a>真题阶段（9-10月）</h3><p><strong>9.《张宇真题大全解》（质量最好的真题书）</strong></p>
-<h3 id="冲刺阶段（11-12月）"><a href="#冲刺阶段（11-12月）" class="headerlink" title="冲刺阶段（11-12月）"></a>冲刺阶段（11-12月）</h3><p><strong>10.《汤家凤绝对考场冲刺八套卷》</strong></p>
-<p><strong>11.《李永乐考研数学决胜冲刺6+2》</strong></p>
-<p><strong>12.《李永乐考研数学临阵磨枪》</strong></p>
-<h2 id="二、各阶段具体复习安排"><a href="#二、各阶段具体复习安排" class="headerlink" title="二、各阶段具体复习安排"></a>二、各阶段具体复习安排</h2><h3 id="基础阶段"><a href="#基础阶段" class="headerlink" title="基础阶段"></a>基础阶段</h3><h4 id="1-网课"><a href="#1-网课" class="headerlink" title="1.网课"></a>1.网课</h4><p><em>（注意：各阶段高数和线代可同步执行，概率论需要等高数学完二重积分以后再开始）</em></p>
-<ul>
-<li><strong>汤家凤《高等数学教材精讲》</strong>（2-3月）</li>
-<li>高昆仑《线性代数教材精讲》（3月）</li>
-<li>高昆仑《概率论教材精讲》（3月）</li>
-<li><strong>汤家凤《高等数学基础班》</strong>（4-5月）</li>
-<li><strong>李永乐《线性代数基础班》</strong>（5月）</li>
-<li><strong>王式安《概率论与数理统计基础班》</strong>（6月）</li>
-</ul>
-<h4 id="2-练习"><a href="#2-练习" class="headerlink" title="2.练习"></a>2.练习</h4><p><em>（注意：练习环节在听完全部教材精讲班后即可开始）</em></p>
-<ul>
-<li>《考研数学复习全书（基础篇）》全部例题（4-6月）</li>
-<li>《数学基础过关660题》全部题目（4-6月）</li>
-</ul>
-<h3 id="强化阶段"><a href="#强化阶段" class="headerlink" title="强化阶段"></a>强化阶段</h3><h4 id="1-网课-1"><a href="#1-网课-1" class="headerlink" title="1.网课"></a>1.网课</h4><ul>
-<li><strong>汤家凤《高等数学强化班》</strong>（7-8月）</li>
-<li><strong>李永乐《线性代数强化班》</strong>（7-8月）</li>
-<li><strong>王式安《概率论与数理统计强化班》</strong>（7-8月）</li>
-</ul>
-<h4 id="2-练习-1"><a href="#2-练习-1" class="headerlink" title="2.练习"></a>2.练习</h4><ul>
-<li>三本辅导讲义（汤家凤、李永乐、王式安）的所有例题和练习题</li>
-<li>《数学强化通关330题》</li>
-</ul>
-<h3 id="真题阶段"><a href="#真题阶段" class="headerlink" title="真题阶段"></a>真题阶段</h3><h4 id="1-网课-2"><a href="#1-网课-2" class="headerlink" title="1.网课"></a>1.网课</h4><ul>
-<li><strong>《高昆仑真题大串讲》</strong></li>
-<li>汤家凤真题讲解（公众号）</li>
-</ul>
-<h4 id="2-练习-2"><a href="#2-练习-2" class="headerlink" title="2.练习"></a>2.练习</h4><ul>
-<li>《张宇真题大全解》</li>
-<li>基础、强化错题笔记</li>
-</ul>
-<h3 id="冲刺阶段"><a href="#冲刺阶段" class="headerlink" title="冲刺阶段"></a>冲刺阶段</h3><h4 id="1-网课-3"><a href="#1-网课-3" class="headerlink" title="1.网课"></a>1.网课</h4><ul>
-<li><strong>汤家凤《高等数学冲刺班》</strong></li>
-<li><strong>李永乐《线性代数冲刺班》</strong></li>
-<li><strong>王式安《概率论与数理统计冲刺班》</strong></li>
-<li><strong>高昆仑《点睛班》</strong></li>
-<li>（选修）李林最后三小时（个人觉得李林的神话不会再续写）</li>
-</ul>
-<h4 id="2-练习-3"><a href="#2-练习-3" class="headerlink" title="2.练习"></a>2.练习</h4><ul>
-<li>错题笔记</li>
-<li>《汤家凤绝对考场冲刺八套卷》</li>
-<li>《李永乐考研数学决胜冲刺6+2》</li>
-</ul>
-<h3 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h3><ul>
-<li>以上所有<strong>加粗课程</strong>为重点课程，需要重点理解</li>
-<li>请各位尽可能地支持正版课程</li>
-<li>注意<strong>听课练习并重</strong>，不可忽视练习的环节</li>
-<li>各阶段注意<strong>错题的整理</strong>，是最后阶段最好的复习资料</li>
-</ul>
-<h2 id="三、每日安排时间"><a href="#三、每日安排时间" class="headerlink" title="三、每日安排时间"></a>三、每日安排时间</h2><p>基础阶段每日2.5小时（<strong>1.5（听课）+1（做题总结）</strong>）</p>
-<p>强化真题阶段每日3.5小时（<strong>1.5（听课）+2（做题总结）</strong>）</p>
-<p>冲刺阶段每日3小时（<strong>1（听课）+2（做题总结）</strong>）</p>
-<h2 id="四、终极目标"><a href="#四、终极目标" class="headerlink" title="四、终极目标"></a>四、终极目标</h2><h3 id="冲击-150-！！！！！"><a href="#冲击-150-！！！！！" class="headerlink" title="冲击  150  ！！！！！"></a>冲击  150  ！！！！！</h3>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>Study</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浙大数据结构学习笔记——第一章</title>
     <url>/2019/02/01/2019-02-01-sjjg01/</url>
     <content><![CDATA[<ul>
@@ -775,34 +550,6 @@ var duoshuoQuery = {short_name:"alisa"};
       </categories>
       <tags>
         <tag>Study</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2月学习规划</title>
-    <url>/2019/01/31/2019-02-01-xxgh/</url>
-    <content><![CDATA[<ul>
-<li>content<br>{:toc}<h1 id="一、想说的话"><a href="#一、想说的话" class="headerlink" title="一、想说的话"></a>一、想说的话</h1></li>
-</ul>
-<p>此时此刻，2019年的2月1日上午11：30，我坐在电脑前，神情恍惚……不知不觉2019年已经过去<strong>十二分之一</strong>了，过去的三个月里，自己学习Java开发，一路摸爬滚打，直到1月中旬和我的一个导师级好友交流后，几乎彻底否定了之前我自己的想法。</p>
-<p>简单来说现在学习的后端框架，不在于多么多，而需要把核心放在热门的技术上。并且在学习的过程中，<strong>动手实践应该占整个学习过程的八成以上</strong>，甚至说自己接下来打算实践的项目都需要尽可能地用到这些技术。之前看过一些教程的目录，框架的学习是以SSH（Structs2，Spring，Hibernate）为开场的，然而在自己学习的过程中，<strong>甚至可以直接入手Spring boot这种高效率的框架</strong>，而没有必要再去学习一些老旧的框架。</p>
-<p>对于后端程序员，掌握一些前端热门js框架的使用，诸如三大框架（Vue，React，Angular），也是有必要考虑的，毕竟会得多总不是坏事，而且会一些前端的东西，可以做成<strong>前后端分离</strong>，也是目前比较受欢迎的项目结构。</p>
-<p>在牛客网自己也读了一些牛人总结的面试经验，大家都非常强调一点——<strong>数据结构和算法</strong>，想想自己也大半年没有去接触算法了，必须得花些功夫在上面了。</p>
-<h1 id="二、月度学习规划"><a href="#二、月度学习规划" class="headerlink" title="二、月度学习规划"></a>二、月度学习规划</h1><h2 id="1-后端学习"><a href="#1-后端学习" class="headerlink" title="1.后端学习"></a>1.后端学习</h2><p>由于我毕设选题采用的是微软的Asp.net技术，初步规划做一个前后端分离的博客管理系统，<strong>后端使用Asp.net core Web API，提供数据给前端处理，前端使用Vue.js渲染这些数据</strong>，这个月我的后端学习重心会放在Asp.net core上，并且尽量能在这个月结束之前把博客系统的后端写好。</p>
-<h2 id="2-前端学习"><a href="#2-前端学习" class="headerlink" title="2.前端学习"></a>2.前端学习</h2><p>学习使用Vue.js，结合一些新潮的扩展，做一些简单的前端页面出来，比如我现在正在着手做的<strong>考研学习记录</strong>网，主要功能目前构思了两个：</p>
-<ul>
-<li>考研学习打卡</li>
-<li>每日学习时长统计（根据打卡统计）</li>
-</ul>
-<p>项目完成后我会将该前端的项目技术总结放在这个博客上，代码也会在码云（Gitee）上开源。</p>
-<h2 id="3-算法学习"><a href="#3-算法学习" class="headerlink" title="3.算法学习"></a>3.算法学习</h2><p>这一部分也是最近一段时间疏忽下来的，但是确实很重要，诸如BAT等互联网大厂在面试的时候也特别看重程序员的算法功底。</p>
-<p>打算这个月每天花两个小时时间在数据结构和算法学习上，每天刷一些算法题。</p>
-<p><strong>Alisa写于   2019/02/01    江苏苏州</strong></p>
-]]></content>
-      <categories>
-        <category>Random thoughts</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
       </tags>
   </entry>
   <entry>
@@ -1225,7 +972,7 @@ var duoshuoQuery = {short_name:"alisa"};
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;address@example.com&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>Markdown 会转成：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;&amp;#x6D;&amp;#x61;i&amp;#x6C;&amp;#x74;&amp;#x6F;:&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;</span><br><span class="line">&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;</span><br><span class="line">&amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;</span><br><span class="line">&amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;&#x2F;a&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>在浏览器里面，这段字串（其实是 <code>[address@example.com](mailto:address@example.com)</code>）会变成一个可以点击的「<a href="mailto:&#97;&#100;&#x64;&#114;&#x65;&#115;&#x73;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#97;&#100;&#x64;&#114;&#x65;&#115;&#x73;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>」链接。</p>
+<p>在浏览器里面，这段字串（其实是 <code>[address@example.com](mailto:address@example.com)</code>）会变成一个可以点击的「<a href="mailto:&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a>」链接。</p>
 <p>（这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）</p>
 <h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 `` 标签），你可以在星号的前面加上反斜杠：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\*literal asterisks\*</span><br><span class="line"></span><br></pre></td></tr></table></figure>
